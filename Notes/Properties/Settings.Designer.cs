@@ -46,5 +46,125 @@ namespace Notes.Properties {
                 this["Theme"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int ThemeType {
+            get {
+                return ((int)(this["ThemeType"]));
+            }
+            set {
+                this["ThemeType"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SelectedRegion {
+            get {
+                return ((bool)(this["SelectedRegion"]));
+            }
+            set {
+                this["SelectedRegion"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
+        public int FirstRegionNote {
+            get {
+                return ((int)(this["FirstRegionNote"]));
+            }
+            set {
+                this["FirstRegionNote"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
+        public int SecondRegionNote {
+            get {
+                return ((int)(this["SecondRegionNote"]));
+            }
+            set {
+                this["SecondRegionNote"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstRegionTitle {
+            get {
+                return ((string)(this["FirstRegionTitle"]));
+            }
+            set {
+                this["FirstRegionTitle"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SecondRegionTitle {
+            get {
+                return ((string)(this["SecondRegionTitle"]));
+            }
+            set {
+                this["SecondRegionTitle"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SystemTheme {
+            get {
+                return ((bool)(this["SystemTheme"]));
+            }
+            set {
+                this["SystemTheme"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool UseEnglishLanguage {
+            get {
+                return ((bool)(this["UseEnglishLanguage"]));
+            }
+            set {
+                this["UseEnglishLanguage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool AutomaticLanguage {
+            get {
+                return ((bool)(this["AutomaticLanguage"]));
+            }
+            set {
+                this["AutomaticLanguage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AccentClassicTheme {
+            get {
+                return ((bool)(this["AccentClassicTheme"]));
+            }
+            set {
+                this["AccentClassicTheme"] = value;
+            }
+        }
     }
 }
