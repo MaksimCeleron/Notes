@@ -1,4 +1,4 @@
 # Notes
-Нотатки, написані на C#
-# Скріншоти
-![](https://github.com/MaksimCeleron/Notes/blob/d240e8336dac186eba8520974d80f49b24c049b2/Screenshot_Light.png) ![](https://github.com/MaksimCeleron/Notes/blob/d240e8336dac186eba8520974d80f49b24c049b2/Screenshot_Dark.png)
+Нотатки, написані на C# / Notes, written on C#
+# Скріншоти / Screenshots
+![](https://github.com/MaksimCeleron/Notes/blob/88a5f91de78692edaae480314d7f5ed1b8736c59/Screenshot_1.png) ![](https://github.com/MaksimCeleron/Notes/blob/88a5f91de78692edaae480314d7f5ed1b8736c59/Screenshot_2.png) ![](https://github.com/MaksimCeleron/Notes/blob/88a5f91de78692edaae480314d7f5ed1b8736c59/Screenshot_3.png) ![](https://github.com/MaksimCeleron/Notes/blob/88a5f91de78692edaae480314d7f5ed1b8736c59/Screenshot_4.png)
