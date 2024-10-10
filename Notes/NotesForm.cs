@@ -1637,23 +1637,13 @@ namespace Notes
             }
             if (!notSaved)
             {
-                string title = !Properties.Settings.Default.UseEnglishLanguage ? Interaction.InputBox("Введіть заголовок нотатки", "Створення нотатки") : Interaction.InputBox("Enter note title", "Creating note");
+                string title = !Properties.Settings.Default.UseEnglishLanguage ? Interaction.InputBox("Введіть заголовок нотатки(залишіть пустим, якщо не бажаєте створювати нотатку)", "Створення нотатки") : Interaction.InputBox("Enter note title(leave blank if don't want to create note)", "Creating note");
                 if (title != "")
                 {
                     notes.Add(new Note(title));
                     string data = JsonConvert.SerializeObject(notes);
                     File.WriteAllText("Notes.json", data);
                     refreshNotes(false, true);
-                }
-                else
-                {
-                    if (!Properties.Settings.Default.UseEnglishLanguage)
-                    {
-                        MessageBox.Show("Неможливо створити нотатку з порожнім іменем", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    } else
-                    {
-                        MessageBox.Show("Impossible to create note with empty note", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
                 }
             }
         }
